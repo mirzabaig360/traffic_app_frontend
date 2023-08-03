@@ -1,0 +1,23 @@
+  <div class="main-container">
+  <div class="table-container">
+    <h6>Points table</h6>
+    <table class="borderless">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Target Score</th>
+          <th>Actual Score</th>
+          <th>Total Points</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of listItems">
+          <td>{{item?.name}}</td>
+          <td>{{item?.target}}%</td>
+          <td><span  [ngClass]="item.actual >= item.target ? 'succ-cls' : 'dang-cls'" class="colored-cell">{{item?.actual}}%</span></td>
+          <td>{{item?.points}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

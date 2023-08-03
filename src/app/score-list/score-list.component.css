@@ -1,0 +1,99 @@
+.main-container {
+    width: 1073px; 
+    height: 468px; 
+    background: white; 
+    border-radius: 4px; 
+    border: 0.50px solid #ffffff; 
+
+}
+.table-container h6{
+color: #5A5A5A;
+font-size: 16px;
+}
+.table-container {
+    margin: 20px auto;
+    width: 80%;
+  }
+  
+  table.borderless {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table.borderless th {
+    background-color: #f8f8f8;
+    padding: 8px;
+    text-align: center;
+    color: #5A5A5A; 
+    font-size: 14px; 
+    font-family: Open Sans; 
+    font-weight: 600; 
+    letter-spacing: 0.14px; 
+    word-wrap: break-word;
+    height: 30px; 
+    padding: 13px 16px 13px 16px; 
+  }
+  
+  table.borderless td {
+    border: none;
+    padding: 8px;
+    text-align: center;
+    color: #5A5A5A; 
+    font-size: 14px; 
+    font-family: Open Sans; 
+    font-weight: 400; 
+    letter-spacing: 0.14px; 
+    word-wrap: break-word;
+    height: 30px; 
+  }
+  
+  table.borderless tbody tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+  
+  table.borderless tbody tr:nth-child(odd) {
+    background-color: transparent;
+  }
+  
+  table.borderless tbody tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  table.borderless tr:not(:first-child) {
+    border-top: 1px solid #ccc; /* Add border to all rows except the first one */
+  }
+  
+  .colored-cell {
+    border-radius: 6px;
+    padding: 5px 28px;
+  }
+  table.borderless thead th:first-child {
+    width: 553px;
+    font-size: 14px;
+  }
+  
+  table.borderless thead th:not(:first-child) {
+    width: 122px;
+    font-size: 14px;
+  }
+  
+  /* Table Body Styling */
+  table.borderless tbody td:first-child {
+    width: 553px;
+  }
+  
+  table.borderless tbody td:not(:first-child) {
+    width: 122px;
+  }
+  .succ-cls {
+    background-color: #59B77A;
+  }
+  .dang-cls {
+
+  background-color: #ED5E61;
+  }
+  table.borderless tbody td:nth-child(3) {
+    margin: 5px;
+    padding: 8px;
+    color: #ffffff;
+  }
